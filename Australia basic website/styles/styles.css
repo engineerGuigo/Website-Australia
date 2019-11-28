@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1500px;
+    line-height: 2.3em;
+    background-image: url("../images/so-white.png");
+}
+
+.our-content {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;  
+}
+
+h1 {    
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0px;
+    font-family: museo-sans-rounded;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    color: grey;
+}
+
+h5{
+  color: red;
+}
+
+h3:hover {
+    color: grey;
+}
+
+.cidade-melbourne {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+}
+
+.cidade-melbourne:hover{
+  box-shadow: 2px 1px 8px 3px rgb(8, 8, 56);
+}
+
+.victoria-gallery {
+  border-radius: 30px;
+  width: 600px;
+  height: 400px;
+}
+
+.victoria-gallery:hover{
+  box-shadow: 2px 1px 8px 3px rgb(8, 8, 56);
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    list-style-type: none;
+    font-size: 5px;
+    letter-spacing: 0px;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .inicio {
+      background-color:orange;
+  }
+
+  .pague-aqui{
+    text-align: left;
+  }
+
